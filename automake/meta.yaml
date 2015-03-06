@@ -1,0 +1,21 @@
+package:
+  name: automake
+  version: "2.69"
+
+source:
+  fn: automake-1.15.tar.gz  
+  url: http://ftp.gnu.org/gnu/automake/automake-1.15.tar.gz 
+
+build:
+  number: 0
+
+requirements:
+  run:
+    autoconf
+
+about:
+  home: http://www.gnu.org/software/automake/
+  license:  GNU General Public License Version 1.3
+  summary: 'Automake is a tool for automatically generating Makefile.in files compliant with the GNU Coding Standards. Automake requires the use of Autoconf.'
+
+
